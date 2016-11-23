@@ -1,7 +1,6 @@
-## jlink
+## Jigsaw Example
 
-Another one of the new tools that Jigsaw brings is 'jlink' which is a tool to produce custom run-time images,
-a single artefact containing both Java and the modules being run.
+This is a Java 9 Jigsaw example used for a presentation at my FH.
 
 ### Scripts to run
 
@@ -9,3 +8,4 @@ a single artefact containing both Java and the modules being run.
 2. `packing.sh` - Creates JAR modules out of the class files
 3. `link.sh` - Run jlink to produce a new run-time image for the hello world example
 4. `run.sh` - Run the new run-time image.
+5. `compileAndRun.sh` - Do all 4 tasks at once
